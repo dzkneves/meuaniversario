@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu aniversário</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <header class="hero">
+        <div class="container">
+            <h1 class="hero__text">Venha fazer parte desta data tão especial!</h1>
+            <div class="contador">
+                <p class="contador__titulo">
+                    Faltam
+                </p>
+                <ul class="contador__timer">
+                    <li class="contador__timer__item">
+                        <span id="dias"></span>
+                        <b>Dias</b>
+                    </li>
+                    <li class="contador__timer__item">
+                        <span id="horas"></span>
+                        <b>Horas</b>
+                    </li>
+                    <li class="contador__timer__item">
+                        <span id="minutos"></span>
+                        <b>Minutos</b>
+                    </li>
+                    <li class="contador__timer__item">
+                        <span id="segundos"></span>
+                        <b>Segundos</b>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="presenca">
+        <div class="container" data-aos="fade-up">
+            <h2>Confirme sua presença!</h2>
+            <form class="presenca__forms">
+                <div class="presenca__forms__input">
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome aqui" required>
+                </div>
+                <button type="submit" class="presenca__forms__button">Confirmar Presença</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="local">
+        <div class="container" data-aos="fade-up">
+            <img class="logo" src="./images/local.jpg" alt="Localização">
+            <div class="local__dados">
+                <h2 class="title">Onde será?</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi tempora repellat qui numquam impedit,
+                    atque aut architecto id harum reiciendis laboriosam? Ipsa sit doloribus explicabo at veniam culpa
+                    molestiae tempora.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+@use 'hero';
+@use 'local';
+@use 'forms';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border border-box;
+    font-family: Roboto, sans-serif;
+    list-style: none;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+
+    @media (max-width: 640px) {
+        max-width: 80%;
+    }
+}
